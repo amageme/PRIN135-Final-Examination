@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ecommerce</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="image/logo.png" width="125px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">PRODUCTS</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">ACCOUNT</a></li>
+                    </ul>
+                </nav>
+                <img src="image/cart.png" width="40px" height="40px">
+                <img src="image/menu.png" class="menu-icon" 
+                onclick="menutoggle()">
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <h1>WELCOME!</h1>
+                        <p>YOUR ONE STOP SHOP BIKE!</p>
+                        <a href="" class="btn">LET'S GO</a>
+                    </div>
+                    <div class="col-2">
+                        <img src="image/16.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!--prod-->
+        <div class="categories">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="image/15.jpg">
+                    </div>
+                    <div class="col-3">
+                        <img src="image/3.jpg">
+                    </div>
+                    <div class="col-3">
+                        <img src="image/16.jpg">
+                    </div>
+                </div>
+            </div>
+            </div>
+
+        <!--prod2-->
+        <div class="small-countainer">
+            <h2 class="title">FEATURED PRODUCTS</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="image/10.jpg">
+                    <h4>MOUTAIN BIKE</h4>
+                    <p>$50</p>
+                </div>
+                <div class="col-4">
+                    <img src="image/4.jpg">
+                    <h4>MOUTAIN BIKE</h4>
+                    <p>$50</p>
+                </div>
+                <div class="col-4">
+                    <img src="image/11.jpg">
+                    <h4>ROAD BIKE</h4>
+                    <p>$150</p>
+                </div>
+                <div class="col-4">
+                    <img src="image/12.jpg">
+                    <h4>ROAD BIKE</h4>
+                    <p>$150</p>
+                </div>
+            </div>
+        </div>
+        <!--footer-->
+        <div class="footer">
+            <div class="cotainer">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>TEXT HERE</h3>
+                        <p>TEXT HERE</p>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="image/logo.png">
+                        <p>TEXT HERE</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>TEXT HERE</h3>
+                        <ul>
+                            <li>Lorem</li>
+                            <li>Ipsum</li>
+                            <li>Dolor</li>
+                        </ul>>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>FOLLOW US</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                        </ul>>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px"
+        }else{
+            MenuItems.style.maxHeight = "0px"
+        }
+
+    }
+</script>
+    </body>
+</html>
